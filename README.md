@@ -38,10 +38,11 @@ You can tune these based on how long it takes your audio system to play each fil
 
 
 ## 🔁 Inputs
-Field	- Type - Description
-payload - string	- Filename (e.g., "hello.mp3")
-size - number	- File size in bytes (used to compute delay)
-clear	- boolean	- (optional) true to clear the queue immediately
+| Field       | Type    | Description                                          |
+|-------------|---------|------------------------------------------------------|
+| `payload`   | string  | Filename to play (e.g., `"HelloWorld.mp3"`)          |
+| `size`      | number  | File size in bytes (used to compute playback delay)  |
+| `clear`     | boolean | *(optional)* `true` to clear and reset the queue     |
 
 
 ## 🔊 Output
